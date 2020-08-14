@@ -1,2 +1,2 @@
-# bootstrap_project1
-Bootstrap Customization with SASS.
+# bootstrap-project1
+A simple web page

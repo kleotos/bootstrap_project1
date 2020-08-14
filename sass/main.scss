@@ -1,0 +1,43 @@
+@import "customvariables";
+@import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap";
+@import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap-compass";
+// @import "../bower_components/fontawesome/scss/fontawesome.scss";
+
+.navbar {
+  margin-bottom: 0;
+ .navbar-brand {
+   font-weight: bold;
+   font-size: 30px;
+ }
+}
+
+.showcase {
+  background: url(../images/download-background.jpg) no-repeat 0 -300px;
+
+  height: 500px;
+  padding: 30px 0;
+
+  .container {
+    background-color: #fff;
+    opacity: 0.7;
+    padding:20px 30px 30px 30px;
+    .container {
+      .container-jumbotron {
+        display: flex;
+        justify-content: flex-end;
+      }
+    }
+  }
+}
+
+.aside {
+  background-color: $main-color;
+}
+
+.container-article {
+  background: #e6eBf1;
+  padding: 30px 0;
+  img {
+    width:  100%;
+  }
+}
