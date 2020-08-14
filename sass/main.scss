@@ -1,7 +1,8 @@
 @import "customvariables";
+@import "function";
 @import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap";
 @import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap-compass";
-// @import "../bower_components/fontawesome/scss/fontawesome.scss";
+@import "../bower_components/fontawesome/scss/fontawesome.scss";
 
 .navbar {
   margin-bottom: 0;
@@ -9,6 +10,16 @@
    font-weight: bold;
    font-size: 30px;
  }
+
+ .navbar {
+   margin-left: 30px;
+
+   a {
+     font-size: 2rem;
+     color: set-text-color($main-color);
+   }
+ }
+ 
 }
 
 .showcase {
@@ -18,7 +29,7 @@
   padding: 30px 0;
 
   .container {
-    background-color: #fff;
+    background-color: set-text-color($main-color);
     opacity: 0.7;
     padding:20px 30px 30px 30px;
     .container {
@@ -32,6 +43,13 @@
 
 .aside {
   background-color: $main-color;
+  padding: 30px 0;
+  text-align: center;
+  color: set-text-color($main-color);
+  
+    .fa {
+      font-size: $icon-size;
+    }
 }
 
 .container-article {
@@ -40,4 +58,32 @@
   img {
     width:  100%;
   }
+  .card-header {
+    background: $main-color;
+  }
+}
+
+.section {
+  padding: 60px 0;
+  background: $main-color;
+  text-align: center;
+  color: set-text-color($main-color);
+}
+
+footer {
+  padding: 30px 0;
+  background: darken($main-color, 10%);
+  color:  set-text-color($main-color);
+  text-align: center;
+  font-size: 20px;
+ 
+}
+
+.title-bar {
+  background:  url(../images/download-background.jpg) no-repeat 0 -300px;
+  padding-bottom: 10px;
+  border-bottom: 4px solid $main-color;
+}
+.main {
+  margin-top: 30px;
 }
