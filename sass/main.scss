@@ -4,23 +4,30 @@
 @import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap-compass";
 @import "../bower_components/fontawesome/scss/fontawesome.scss";
 
-.navbar {
-  margin-bottom: 0;
- .navbar-brand {
-   font-weight: bold;
-   font-size: 30px;
- }
 
- .navbar {
-   margin-left: 30px;
 
-   a {
-     font-size: 2rem;
-     color: set-text-color($main-color);
-   }
- }
- 
-}
+  .navbar {
+    background: $main-color;
+      margin-bottom: 0;
+    .navbar-brand {
+      font-weight: bold;
+      font-size: 30px;
+      color: set-text-color($main-color);
+    }
+
+    .navbar {
+      .navbar-nav {
+        font-size: 2rem;
+        color: set-text-color($main-color);
+      }
+      i {
+        font-size: 1.5rem;
+        color: set-text-color($main-color);
+      }
+    }
+  
+  }
+
 
 .showcase {
   background: url(../images/download-background.jpg) no-repeat 0 -300px;

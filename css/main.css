@@ -10315,15 +10315,18 @@ readers do not read off random characters that represent icons */
   width: auto; }
 
 .navbar {
+  background: #1a8c97;
   margin-bottom: 0; }
   .navbar .navbar-brand {
     font-weight: bold;
-    font-size: 30px; }
-  .navbar .navbar {
-    margin-left: 30px; }
-    .navbar .navbar a {
-      font-size: 2rem;
-      color: #ffffff; }
+    font-size: 30px;
+    color: #ffffff; }
+  .navbar .navbar .navbar-nav {
+    font-size: 2rem;
+    color: #ffffff; }
+  .navbar .navbar i {
+    font-size: 1.5rem;
+    color: #ffffff; }
 
 .showcase {
   background: url(../images/download-background.jpg) no-repeat 0 -300px;
