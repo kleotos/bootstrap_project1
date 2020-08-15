@@ -10376,5 +10376,11 @@ footer {
 
 .main {
   margin-top: 30px; }
+  .main .panel-heading {
+    background: #1a8c97;
+    color: #ffffff; }
+
+.list-group {
+  background: #1a8c97; }
 
 /*# sourceMappingURL=main.css.map */

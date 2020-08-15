@@ -91,6 +91,15 @@ footer {
   padding-bottom: 10px;
   border-bottom: 4px solid $main-color;
 }
+
 .main {
   margin-top: 30px;
+  .panel-heading {
+    background: $main-color;
+    color: set-text-color($main-color);
+  }
+}
+
+.list-group {
+    background: $main-color;  
 }
