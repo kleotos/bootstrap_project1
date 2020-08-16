@@ -10321,12 +10321,14 @@ readers do not read off random characters that represent icons */
     font-weight: bold;
     font-size: 30px;
     color: #ffffff; }
-  .navbar .navbar .navbar-nav {
+    .navbar .navbar-brand .navbar-link {
+      color: #ffffff; }
+  .navbar .nav {
     font-size: 2rem;
     color: #ffffff; }
-  .navbar .navbar i {
-    font-size: 1.5rem;
-    color: #ffffff; }
+    .navbar .nav i {
+      font-size: 1.5rem;
+      color: #ffffff; }
 
 .showcase {
   background: url(../images/download-background.jpg) no-repeat 0 -300px;

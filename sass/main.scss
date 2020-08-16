@@ -10,16 +10,18 @@
     background: $main-color;
       margin-bottom: 0;
     .navbar-brand {
-      
-      
+      font-weight: bold;
+      font-size: 30px;
       color: set-text-color($main-color);
-    }
-
-    .navbar {
-      .navbar-nav {
-        font-size: 2rem;
+      .navbar-link {
         color: set-text-color($main-color);
       }
+    }
+
+    .nav {
+        font-size: 2rem;
+        color: set-text-color($main-color);
+     
       i {
         font-size: 1.5rem;
         color: set-text-color($main-color);
@@ -28,6 +30,11 @@
   
   }
 
+  .section{
+    .btn{
+      background: $main-color;
+    }
+  }
 
 .showcase {
   background: url(../images/download-background.jpg) no-repeat 0 -300px;
